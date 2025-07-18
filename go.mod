@@ -1,8 +1,6 @@
 module github.com/coreos/coreos-assembler
 
-go 1.21
-
-toolchain go1.22.6
+go 1.23.0
 
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.3.0
@@ -47,7 +45,7 @@ require (
 	github.com/xeipuuv/gojsonschema v1.2.0
 	golang.org/x/crypto v0.26.0
 	golang.org/x/net v0.28.0
-	golang.org/x/oauth2 v0.22.0
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/term v0.23.0
 	google.golang.org/api v0.196.0
 	gopkg.in/yaml.v2 v2.4.0
